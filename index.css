@@ -1,0 +1,47 @@
+body{
+    background-image: url('./Recursos/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(162, 220, 224);
+}
+
+.PiezasJ1{
+    display: flex;
+    padding:0;
+    margin:0;
+}
+
+.FichaJugador1{
+    position: absolute;
+    left: 2%;
+}
+
+.PiezasJ2{
+    position: absolute;
+    right: 30%;
+}
+
+.Manos{
+    position: absolute;
+    left: 30%;
+}
+
+.Jugador1{
+    display: flex;
+    padding:0;
+    margin:0;
+}
+
+.FichaEsperarTurno{
+    position: absolute;
+    left: 33%;
+}
+
+.Jugador2{
+    position: absolute;
+    right: 31%;
+}
+
+.VictoriasJ2{
+    position: absolute;
+    right: 30%;
+}

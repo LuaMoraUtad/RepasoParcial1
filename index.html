@@ -10,8 +10,56 @@
     <link rel="stylesheet" href="index.css"> <!--CSS-->
 </head>
 <body>
-    <p id="users"></p>
-    <button class="btn">Select Random</button>
-    <p id="selected"></p>
+    <div class="PiezasJ1">
+        <div class="item"><img src="./Recursos/Piedra.png" id="0" name="Pi1" width="64" height ="78" onclick ='moverMano(this);'></div>
+        <div class="item"><img src="./Recursos/Papel.png" id="1" name="Pa1" width="64" height ="78" onclick ='moverMano(this);'></div>
+        <div class="item"><img src="./Recursos/Tijera.png" id="2" name="T1" width="64" height ="78" onclick ='moverMano(this);'></div>
+    
+         <div class="PiezasJ2">
+            <img src="./Recursos/Piedra.png" id="3" name="Pi2" width="64" height ="78" onclick ='moverMano(this);'>
+            <img src="./Recursos/Papel.png" id="4" name="Pa2" width="64" height ="78" onclick ='moverMano(this);'>
+            <img src="./Recursos/Tijera.png" id="5" name="T2" width="64" height ="78" onclick ='moverMano(this);'>
+        </div>
+    </div>
+
+    </br></br>
+
+    <div class="Manos">
+        <img src="./Recursos/Piedra.png" id="3" name="Pi2" width="64" height ="78">
+        <img src="./Recursos/Papel.png" id="4" name="Pa2" width="64" height ="78">
+    </div>
+
+    </br></br>
+    </br></br>
+    </br></br>
+
+    <div class="Jugador1">
+        <p id="j1">3</p>
+
+        <div class="FichaJugador1">
+            <img src="./Recursos/j1.jpg" id="personaJ1" name="personaJ1" width="48" height="58">
+        </div>
+
+        <div class="FichaEsperarTurno">
+            <img src="./Recursos/EsperarTurno.jpg" id="ET" width="54" height ="64" >
+        </div>
+
+        <div class="Jugador2">
+            <img src="./Recursos/j2.jpg" id="personaJ2" name="personaJ2" width="48" height="61">
+        </div>
+
+        <div class="VictoriasJ2">
+            <p id="j2">2</p>
+        </div>
+    </div>
+
+    <p id="Ganador">Ganador: </p>
+    <button class="btn">Reset</button>
+    <button class="btn">Siguiente Ronda</button>
+
+    <!--<button class="btn">Piedra</button>
+    <button class="btn">Papel</button>
+    <button class="btn">Tijera</button>
+    <p id="selected"></p>-->
 </body>
 </html>
