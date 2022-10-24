@@ -1,3 +1,4 @@
+//Declaración de variables
 var turno = 1;
 var contMario = 0;
 var contLuigi = 0;
@@ -8,6 +9,7 @@ $( document ).ready(function() {
     $('#puntuacionJ2').text(contLuigi);
 });
 
+//Función para mover mano
 function moverMano(mano){
     if(bloqueo == 0){
         var mano_id = parseInt(mano.id, 10);
@@ -46,6 +48,7 @@ function moverMano(mano){
     }
 }
 
+//Función quién gana
 function quienEsElGanador(){
     var izq = document.getElementById("manoIzquierda").src;
     var der = document.getElementById("manoDerecha").src;
@@ -87,6 +90,7 @@ function quienEsElGanador(){
     bloqueo = 1;
 }
 
+//Función reset
 function reset(){
     bloqueo = 0;
     contMario = 0;
@@ -100,6 +104,7 @@ function reset(){
     document.getElementById("ET").src = "./Recursos/EsperarTurno.jpg";
 }
 
+//Función siguiente ronda
 function nextRound(){
     bloqueo = 0;
     document.getElementById("manoIzquierda").src = "./Recursos/Interrogante.jpg";

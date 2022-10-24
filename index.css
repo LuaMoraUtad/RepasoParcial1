@@ -1,47 +1,47 @@
-body{
+body{/*Estilo del cuerpo*/
     background-image: url('./Recursos/Fondo.jpg');
     background-repeat: no-repeat;
     background-color: rgb(162, 220, 224);
 }
 
-.PiezasJ1{
+.PiezasJ1{/*Estilo de las piezas del jugador 1*/
     display: flex;
     padding:0;
     margin:0;
 }
 
-.FichaJugador1{
+.FichaJugador1{/*Estilo de la ficha del jugador 1*/
     position: absolute;
     left: 2%;
 }
 
-.PiezasJ2{
+.PiezasJ2{/*Estilo de las piezas del jugador 2*/
     position: absolute;
     right: 30%;
 }
 
-.Manos{
+.Manos{/*Estilo de las manos*/
     position: absolute;
     left: 30%;
 }
 
-.Jugador1{
+.Jugador1{/*Estilo del jugador 1*/
     display: flex;
     padding:0;
     margin:0;
 }
 
-.FichaEsperarTurno{
+.FichaEsperarTurno{/*Estilo de esperar turno*/
     position: absolute;
     left: 33%;
 }
 
-.Jugador2{
+.Jugador2{/*Estilo del jugador 2*/
     position: absolute;
     right: 31%;
 }
 
-.VictoriasJ2{
+.VictoriasJ2{/*Estilo de la victoria del jugador 2*/
     position: absolute;
     right: 30%;
 }
